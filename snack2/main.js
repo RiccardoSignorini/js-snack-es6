@@ -47,3 +47,17 @@ squadre.forEach((element)=>{
 })
 
 console.log(squadre)
+
+// ARRAY RISULTATO
+let risultato = []
+
+squadre.forEach((element)=>{
+    // DESTRTUCTURING
+    let {nomeSquadra, falliSubiti} = element
+
+    // PUSH RISULTATO
+    risultato.push({nomeSquadra, falliSubiti})
+})
+
+// STAMPA IN CONSOLE
+console.log(risultato)
