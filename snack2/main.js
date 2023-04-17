@@ -38,3 +38,12 @@ const squadre = [
 function randomNum(){
     return Math.floor(Math.random()*100)+1
 }
+
+// RANDOMIZZAZIONE PUNTI E FALLI
+squadre.forEach((element)=>{
+    element.puntiFatti = randomNum()
+
+    element.falliSubiti = randomNum()
+})
+
+console.log(squadre)
