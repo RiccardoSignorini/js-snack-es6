@@ -6,3 +6,19 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 
 Stampare a schermo la bici con peso minore utilizzando destructuring e template literal
 */
+
+// ARRAY OGGETTI
+const bici = [
+    {
+        nome: 'MountainFast',
+        peso: 30,
+    }, 
+    {
+        nome: 'StreetFast',
+        peso: 20,
+    }, 
+    {
+        nome: 'FastMix',
+        peso: 25,
+    }
+]
