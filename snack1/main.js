@@ -22,3 +22,17 @@ const bici = [
         peso: 25,
     }
 ]
+
+// VARIABILE STANDARD BICI PIU' LEGGERA
+let biciLight = bici[0]
+
+console.log(biciLight)
+
+// CICLO BICI PIU' LEGGERA
+bici.forEach((element)=>{
+    if(element.peso<biciLight.peso){
+        biciLight = element
+    }
+})
+
+console.log(biciLight)
