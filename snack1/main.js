@@ -41,4 +41,4 @@ console.log(biciLight)
 let {nome, peso} = biciLight
 
 // STAMPA IN PAGINA
-document.querySelector('#stampa').innerHTML = `La bici più leggera è ${nome}, che pesa ${peso} chili.`
+document.querySelector('#stampa').innerHTML = `<p>La bici più leggera è ${nome}, che pesa ${peso} chili.</p>`
