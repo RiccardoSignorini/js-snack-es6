@@ -36,3 +36,9 @@ bici.forEach((element)=>{
 })
 
 console.log(biciLight)
+
+// DESTRUCTURING
+let {nome, peso} = biciLight
+
+// STAMPA IN PAGINA
+document.querySelector('#stampa').innerHTML = `La bici più leggera è ${nome}, che pesa ${peso} chili.`
