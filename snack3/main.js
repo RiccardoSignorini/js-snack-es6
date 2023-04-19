@@ -10,3 +10,16 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 
 Usiamo i nuovi metodi degli array foreach o filter.
 */
+
+// ARRAY DI NOMI
+const nomi = [
+    'Riccardo',
+    'Sara',
+    'Giovanni',
+    'Rosanna',
+    'Mario',
+]
+
+let numero1 = prompt('Scrivi un numero di partenza tra 0 e 4')
+
+let numero2 = prompt('Scrivi un numero di partenza tra 0 e 4')
