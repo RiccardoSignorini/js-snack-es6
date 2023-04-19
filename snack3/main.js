@@ -20,6 +20,24 @@ const nomi = [
     'Mario',
 ]
 
+// INSERIMENTO NUMERI
 let numero1 = prompt('Scrivi un numero di partenza tra 0 e 4')
 
 let numero2 = prompt('Scrivi un numero di partenza tra 0 e 4')
+
+// FUNZIONE FILTRO NOMI IN BASE AI NUMERI
+function filtArray(array,x,y){
+    let arrayFilt = array.filter((element, index)=>{
+
+        if(x<index && y>index){
+            return element
+        }
+
+    })
+
+    console.log(arrayFilt)
+}
+
+// FILTRO NOMI IN BASE AI NUMERI
+filtArray(nomi,numero1,numero2)
+
